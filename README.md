@@ -115,8 +115,9 @@ php -S localhost:8000
 ```json
 
 // Prepare the SQL statement to insert data
+
 $stmt = $conn->prepare('INSERT INTO distribution (user_assigned, household_id, household_name, family_members, itns_distributed, distribution_date) 
-                      VALUES (?, ?, ?, ?, ?, ?)');
+VALUES (?, ?, ?, ?, ?, ?)');
 
 $stmt->bindValue(1, $data['username'], PDO::PARAM_STR);
 $stmt->bindValue(2, $household_id, PDO::PARAM_STR);
@@ -135,7 +136,6 @@ else
     echo json_encode(["error" => "Failed to submit data."]);
     http_response_code(500);
 }
-
 ```
 2. GET Request: To retrieve all distribution records, send a GET request to ``http://localhost:8000/api/get_data.php``. This will return the data in JSON format.
 
