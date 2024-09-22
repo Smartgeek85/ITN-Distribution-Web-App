@@ -1,0 +1,131 @@
+[22-Sep-2024 10:41:24 UTC] PHP Warning:  Undefined variable $conn in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 10:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/itntasko/public_html/registration.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 10:43:15 UTC] PHP Warning:  Undefined variable $conn in /home/itntasko/public_html/authentication.php on line 12
+[22-Sep-2024 10:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/itntasko/public_html/authentication.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/authentication.php on line 12
+[22-Sep-2024 10:43:29 UTC] PHP Warning:  Undefined variable $conn in /home/itntasko/public_html/authentication.php on line 12
+[22-Sep-2024 10:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/itntasko/public_html/authentication.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/authentication.php on line 12
+[22-Sep-2024 10:51:23 UTC] PHP Warning:  Undefined variable $conn in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 10:51:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/itntasko/public_html/registration.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 10:51:27 UTC] PHP Warning:  Undefined variable $conn in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 10:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/itntasko/public_html/registration.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/registration.php on line 27
+[22-Sep-2024 11:27:32 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:27:32 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:27:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:27:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 210
+[22-Sep-2024 11:28:40 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:28:40 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:28:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:28:40 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 210
+[22-Sep-2024 11:32:16 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:32:16 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:32:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:32:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 11:41:01 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:41:01 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:41:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:41:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 11:44:26 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:44:26 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:44:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:44:26 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 11:46:44 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:46:44 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:49:48 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:49:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:53:55 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 11:53:55 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 11:53:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 11:53:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 11:55:09 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/distribution.php on line 64
+[22-Sep-2024 11:55:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 64
+[22-Sep-2024 11:55:09 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:55:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:56:53 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 11:56:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 12:00:22 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 12:00:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 12:02:16 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 12:02:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 64
+[22-Sep-2024 12:10:31 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:10:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:11:11 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/distribution.php on line 64
+[22-Sep-2024 12:11:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 64
+[22-Sep-2024 12:11:32 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 12:11:32 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 12:11:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 12:11:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 12:16:17 UTC] PHP Warning:  Undefined array key "name" in /home/itntasko/public_html/dashboard.php on line 11
+[22-Sep-2024 12:16:17 UTC] PHP Warning:  Undefined array key "id" in /home/itntasko/public_html/dashboard.php on line 12
+[22-Sep-2024 12:16:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 76
+[22-Sep-2024 12:16:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/dashboard.php on line 211
+[22-Sep-2024 12:16:34 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:16:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:19:46 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:19:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:20:03 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:20:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:36:09 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:36:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:37:06 UTC] PHP Warning:  Undefined variable $name in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 12:37:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/household.php on line 67
+[22-Sep-2024 15:05:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchArray() in /home/itntasko/public_html/distribution.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/distribution.php on line 251
+[22-Sep-2024 15:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchArray() in /home/itntasko/public_html/distribution.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/distribution.php on line 251
+[22-Sep-2024 15:06:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchArray() in /home/itntasko/public_html/distribution.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/distribution.php on line 251
+[22-Sep-2024 15:07:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchArray() in /home/itntasko/public_html/distribution.php:249
+Stack trace:
+#0 {main}
+  thrown in /home/itntasko/public_html/distribution.php on line 249
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "date" in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "phone_number" in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "itns_assigned" in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "date" in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "phone_number" in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "itns_assigned" in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "date" in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 253
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "phone_number" in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 256
+[22-Sep-2024 15:11:16 UTC] PHP Warning:  Undefined array key "itns_assigned" in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:11:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 258
+[22-Sep-2024 15:12:20 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:12:20 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:12:20 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:12:20 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:12:20 UTC] PHP Warning:  Undefined array key "household_head_name" in /home/itntasko/public_html/distribution.php on line 255
+[22-Sep-2024 15:12:20 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/itntasko/public_html/distribution.php on line 255

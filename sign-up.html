@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>User Account - Registration</title>
+  <meta name="description" content="web development agency">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="bg-body-light dark:bg-dark-body">
+    <div id="loader" class="w-screen h-screen flex-center bg-white dark:bg-dark-card fixed inset-0 z-[9999]">
+        <img src="assets/images/dot-loader.gif" alt="loader">
+    </div>
+
+    <div class="main-content m-4">
+        <div class="grid grid-cols-12 gap-y-7 sm:gap-7 card px-4 sm:px-10 py-15 lg:items-center lg:min-h-[calc(100vh_-_32px)]">
+             <!-- Start Overview Area -->
+            <div class="col-span-full lg:col-span-6">
+                <div class="flex flex-col items-center justify-center gap-10 text-center">
+                    <div class="hidden sm:block">
+                        <img src="assets/images/loti/loti-auth.svg" alt="loti" class="group-data-[theme-mode=dark]:hidden">
+                        <img src="assets/images/loti/loti-auth-dark.svg" alt="loti" class="group-data-[theme-mode=light]:hidden">
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-[28px] leading-none font-semibold text-heading">
+                            Welcome back!
+                        </h3>
+                        <p class="font-medium text-gray-500 dark:text-dark-text mt-4 px-[10%]">
+                            CRS ITN TASK 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Overview Area -->
+
+            <div class="col-span-full lg:col-span-6 w-full lg:max-w-[600px]">
+                <div class="border border-form p-5 md:p-10 rounded-20">
+                    <h3 class="text-xl md:text-[28px] font-semibold text-heading">Sign Up</h3>
+                    <p class="font-medium text-gray-500 mt-4">Welcome! Create your account</p>
+                    <form id="registrationForm" action="registration.php" method="POST" class="leading-none mt-8" onsubmit="return validateForm()">
+                        <div class="mb-2.5">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" required class="form-input px-4 py-3.5 rounded-lg">
+                        </div>
+                        <div class="mt-5">
+                            <label for="username" class="form-label">Email</label>
+                            <input type="email" id="username" name="username" required class="form-input px-4 py-3.5 rounded-lg">
+                        </div>
+                        <div class="mt-5">
+                            <label for="password" class="form-label">Password</label>
+                            <div class="relative"> 
+                                <input type="password" id="password" name="password" required class="form-input px-4 py-3.5 rounded-lg">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <label for="confirm_password" class="form-label">Confirm Password</label>
+                            <div class="relative">
+                                <input type="password" id="confirm_password" name="confirm_password" required class="form-input px-4 py-3.5 rounded-lg">
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn b-solid btn-primary-solid w-full">Sign Up</button>
+                    </form>
+                    <div class="text-center my-4">OR</div>
+                    <div class="text-gray-900 font-medium mt-5">
+                        Have an account? <a href="sign-in.html" class="text-primary-500 font-semibold">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            var confirmPassword = document.getElementById('confirm_password').value;
+
+            if (name === "" || email === "" || password === "" || confirmPassword === "") {
+                alert("All fields must be filled out.");
+                return false;
+            }
+
+            var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (!email.match(emailPattern)) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+
+            return true;  // Submit the form if all checks pass
+        }
+    </script>
+</body>
+</html>
